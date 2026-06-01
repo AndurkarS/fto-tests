@@ -25,4 +25,4 @@ jobs:
           githubToken: ${{secrets.GITHUB_TOKEN}}
           archiveReportsAsSingleArtifact: false
           logLevel: 2
-          cancelRunOnFailure: true
+          cancelRunOnFailure: false
