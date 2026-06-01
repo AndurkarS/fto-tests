@@ -1,0 +1,17 @@
+﻿WpfWindow("OpenText MyFlight Sample").WpfEdit("agentName").Check(CheckPoint("agentName")) @@ hightlight id_;_1967077112_;_script infofile_;_ZIP::ssf1.xml_;_
+WpfWindow("OpenText MyFlight Sample").WpfEdit("agentName").Set("john") @@ hightlight id_;_2125859928_;_script infofile_;_ZIP::ssf2.xml_;_
+WpfWindow("OpenText MyFlight Sample").WpfEdit("password").SetSecure("6a1a427be4fed46cc452") @@ hightlight id_;_2128305688_;_script infofile_;_ZIP::ssf3.xml_;_
+WpfWindow("OpenText MyFlight Sample").WpfButton("OK").Click() @@ hightlight id_;_2124436632_;_script infofile_;_ZIP::ssf4.xml_;_
+WpfWindow("OpenText MyFlight Sample").WpfComboBox("fromCity").Check(CheckPoint("fromCity")) @@ hightlight id_;_1967079656_;_script infofile_;_ZIP::ssf5.xml_;_
+WpfWindow("OpenText MyFlight Sample").WpfComboBox("toCity").Check(CheckPoint("toCity"))
+#wait(60)
+WpfWindow("OpenText MyFlight Sample").WpfComboBox("toCity").Check(CheckPoint("toCity_2")) @@ hightlight id_;_525648_;_script infofile_;_ZIP::ssf11.xml_;_
+WpfWindow("OpenText MyFlight Sample").WpfButton("FIND FLIGHTS").Check(CheckPoint("FIND FLIGHTS"))
+WpfWindow("OpenText MyFlight Sample").WpfButton("FIND FLIGHTS").Click() @@ hightlight id_;_1971599776_;_script infofile_;_ZIP::ssf18.xml_;_
+WpfWindow("OpenText MyFlight Sample").WpfTable("flightsDataGrid").Check(CheckPoint("flightsDataGrid"))
+
+
+
+
+ @@ hightlight id_;_2045401856_;_script infofile_;_ZIP::ssf12.xml_;_
+

@@ -1,0 +1,6 @@
+﻿AIUtil.SetContext(Browser("creationtime:=0"))
+#AIUtil.SetContext(Browser("creationtime:=0"))
+AIUtil.FindTextBlock("SPEAKERS").CheckExists(True)
+wait(60)
+AIUtil.FindTextBlock("SPEAKERS").SmartVerify("Is it all in lower case letters?", SmartVerifyTextProperties)
+AIUtil.FindTextBlock("TABLETS").SmartVerify("Is this related to TABLETS?", SmartVerifyImage)
