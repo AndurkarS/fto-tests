@@ -23,6 +23,6 @@ jobs:
         with:
           testPaths: ${{inputs.testPaths}}
           githubToken: ${{secrets.GITHUB_TOKEN}}
-          archiveReportsAsSingleArtifact: false
+          archiveReportsAsSingleArtifact: true
           logLevel: 2
           cancelRunOnFailure: false
