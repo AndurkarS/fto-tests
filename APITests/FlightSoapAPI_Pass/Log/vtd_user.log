@@ -1,0 +1,190 @@
+2026-07-14 06:35:41,799 [1] INFO  - Loaded appender: FileAppenderExternal
+2026-07-14 06:35:41,815 [1] INFO  - Loaded appender: UserLoggerAppender
+2026-07-14 06:35:41,815 [1] INFO  - Loaded appender: FileAppenderInternal
+2026-07-14 06:35:41,815 [1] INFO  - Loaded appender: FileAppenderExternal
+2026-07-14 06:35:41,815 [1] INFO  - Loaded appender: UserLoggerAppender
+2026-07-14 06:35:41,815 [1] INFO  - Loaded appender: FileAppenderInternal
+2026-07-14 06:35:42,207 [22] INFO  - Step 'Start' : Step 'Start' started
+2026-07-14 06:35:42,239 [22] INFO  - Step 'Start' ended successfully
+2026-07-14 06:35:42,239 [22] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2026-07-14 06:35:42,239 [22] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2026-07-14 06:35:42,239 [22] INFO  - Step 'GetFlights' : Step 'GetFlights' started
+2026-07-14 06:35:42,255 [22] INFO  - 
+Request:
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetFlights xmlns="HP.SOAQ.SampleApp">
+      <DepartureCity>Denver</DepartureCity>
+      <ArrivalCity>Frankfurt</ArrivalCity>
+      <FlightDate>2026-07-31T00:00:00+00:00</FlightDate>
+    </GetFlights>
+  </Body>
+</Envelope>
+
+2026-07-14 06:35:42,271 [22] INFO  - URL: http://localhost:8000/Flights_SOAP
+2026-07-14 06:35:42,287 [22] INFO  - Returning the response to the previous channel
+2026-07-14 06:35:42,287 [22] INFO  - 
+Response:
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetFlightsResponse xmlns="HP.SOAQ.SampleApp">
+      <GetFlightsResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <Flight>
+          <Airline>NW</Airline>
+          <ArrivalCity>Frankfurt</ArrivalCity>
+          <ArrivalTime>07:41 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>06:57 PM</DepartureTime>
+          <FlightNumber>14303</FlightNumber>
+          <Price>100.8</Price>
+        </Flight>
+        <Flight>
+          <Airline>NW</Airline>
+          <ArrivalCity>Frankfurt</ArrivalCity>
+          <ArrivalTime>06:29 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>05:45 PM</DepartureTime>
+          <FlightNumber>14438</FlightNumber>
+          <Price>110</Price>
+        </Flight>
+        <Flight>
+          <Airline>AA</Airline>
+          <ArrivalCity>Frankfurt</ArrivalCity>
+          <ArrivalTime>08:45 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>08:00 AM</DepartureTime>
+          <FlightNumber>15829</FlightNumber>
+          <Price>100.5</Price>
+        </Flight>
+        <Flight>
+          <Airline>AA</Airline>
+          <ArrivalCity>Frankfurt</ArrivalCity>
+          <ArrivalTime>11:09 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:24 AM</DepartureTime>
+          <FlightNumber>15833</FlightNumber>
+          <Price>103.4</Price>
+        </Flight>
+        <Flight>
+          <Airline>AA</Airline>
+          <ArrivalCity>Frankfurt</ArrivalCity>
+          <ArrivalTime>01:33 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:48 PM</DepartureTime>
+          <FlightNumber>15837</FlightNumber>
+          <Price>108</Price>
+        </Flight>
+        <Flight>
+          <Airline>DL</Airline>
+          <ArrivalCity>Frankfurt</ArrivalCity>
+          <ArrivalTime>04:42 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>03:12 PM</DepartureTime>
+          <FlightNumber>15840</FlightNumber>
+          <Price>173.47</Price>
+        </Flight>
+        <Flight>
+          <Airline>AA</Airline>
+          <ArrivalCity>Frankfurt</ArrivalCity>
+          <ArrivalTime>03:57 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>03:12 PM</DepartureTime>
+          <FlightNumber>15841</FlightNumber>
+          <Price>103</Price>
+        </Flight>
+        <Flight>
+          <Airline>AF</Airline>
+          <ArrivalCity>Frankfurt</ArrivalCity>
+          <ArrivalTime>06:42 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>03:12 PM</DepartureTime>
+          <FlightNumber>15842</FlightNumber>
+          <Price>174.47</Price>
+        </Flight>
+        <Flight>
+          <Airline>NW</Airline>
+          <ArrivalCity>Frankfurt</ArrivalCity>
+          <ArrivalTime>02:53 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>02:09 PM</DepartureTime>
+          <FlightNumber>15932</FlightNumber>
+          <Price>179.47</Price>
+        </Flight>
+      </GetFlightsResult>
+    </GetFlightsResponse>
+  </s:Body>
+</s:Envelope>
+
+2026-07-14 06:35:42,314 [22] INFO  - Structural Validation: True
+2026-07-14 06:35:42,318 [22] INFO  - Checkpoint 1: "0" = "0" passed
+2026-07-14 06:35:42,318 [22] INFO  - Checkpoint 2: "9" = "9" passed
+2026-07-14 06:35:42,334 [22] INFO  - Checkpoint 5: "NW" = "NW" passed
+2026-07-14 06:35:42,345 [22] INFO  - Checkpoint 6: "Frankfurt" = "Frankfurt" passed
+2026-07-14 06:35:42,345 [22] INFO  - Checkpoint 7: "07:41 PM" = "07:41 PM" passed
+2026-07-14 06:35:42,350 [22] INFO  - Checkpoint 8: "Denver" = "Denver" passed
+2026-07-14 06:35:42,350 [22] INFO  - Checkpoint 9: "06:57 PM" = "06:57 PM" passed
+2026-07-14 06:35:42,350 [22] INFO  - Checkpoint 10: "14303" = "14303" passed
+2026-07-14 06:35:42,350 [22] INFO  - Checkpoint 11: "100.8" = "100.8" passed
+2026-07-14 06:35:42,350 [22] INFO  - Checkpoint 13: "NW" = "NW" passed
+2026-07-14 06:35:42,350 [22] INFO  - Checkpoint 14: "Frankfurt" = "Frankfurt" passed
+2026-07-14 06:35:42,350 [22] INFO  - Checkpoint 15: "06:29 PM" = "06:29 PM" passed
+2026-07-14 06:35:42,350 [22] INFO  - Checkpoint 16: "Denver" = "Denver" passed
+2026-07-14 06:35:42,366 [22] INFO  - Checkpoint 17: "05:45 PM" = "05:45 PM" passed
+2026-07-14 06:35:42,366 [22] INFO  - Checkpoint 18: "14438" = "14438" passed
+2026-07-14 06:35:42,366 [22] INFO  - Checkpoint 19: "110" = "110" passed
+2026-07-14 06:35:42,366 [22] INFO  - Checkpoint 21: "AA" = "AA" passed
+2026-07-14 06:35:42,366 [22] INFO  - Checkpoint 22: "Frankfurt" = "Frankfurt" passed
+2026-07-14 06:35:42,376 [22] INFO  - Checkpoint 23: "08:45 AM" = "08:45 AM" passed
+2026-07-14 06:35:42,376 [22] INFO  - Checkpoint 24: "Denver" = "Denver" passed
+2026-07-14 06:35:42,376 [22] INFO  - Checkpoint 25: "08:00 AM" = "08:00 AM" passed
+2026-07-14 06:35:42,382 [22] INFO  - Checkpoint 26: "15829" = "15829" passed
+2026-07-14 06:35:42,382 [22] INFO  - Checkpoint 27: "100.5" = "100.5" passed
+2026-07-14 06:35:42,382 [22] INFO  - Checkpoint 29: "AA" = "AA" passed
+2026-07-14 06:35:42,382 [22] INFO  - Checkpoint 30: "Frankfurt" = "Frankfurt" passed
+2026-07-14 06:35:42,382 [22] INFO  - Checkpoint 31: "11:09 AM" = "11:09 AM" passed
+2026-07-14 06:35:42,382 [22] INFO  - Checkpoint 32: "Denver" = "Denver" passed
+2026-07-14 06:35:42,382 [22] INFO  - Checkpoint 33: "10:24 AM" = "10:24 AM" passed
+2026-07-14 06:35:42,382 [22] INFO  - Checkpoint 34: "15833" = "15833" passed
+2026-07-14 06:35:42,382 [22] INFO  - Checkpoint 35: "103.4" = "103.4" passed
+2026-07-14 06:35:42,399 [22] INFO  - Checkpoint 37: "AA" = "AA" passed
+2026-07-14 06:35:42,399 [22] INFO  - Checkpoint 38: "Frankfurt" = "Frankfurt" passed
+2026-07-14 06:35:42,399 [22] INFO  - Checkpoint 39: "01:33 PM" = "01:33 PM" passed
+2026-07-14 06:35:42,399 [22] INFO  - Checkpoint 40: "Denver" = "Denver" passed
+2026-07-14 06:35:42,399 [22] INFO  - Checkpoint 41: "12:48 PM" = "12:48 PM" passed
+2026-07-14 06:35:42,407 [22] INFO  - Checkpoint 42: "15837" = "15837" passed
+2026-07-14 06:35:42,407 [22] INFO  - Checkpoint 43: "108" = "108" passed
+2026-07-14 06:35:42,407 [22] INFO  - Checkpoint 45: "DL" = "DL" passed
+2026-07-14 06:35:42,414 [22] INFO  - Checkpoint 46: "Frankfurt" = "Frankfurt" passed
+2026-07-14 06:35:42,414 [22] INFO  - Checkpoint 47: "04:42 PM" = "04:42 PM" passed
+2026-07-14 06:35:42,430 [22] INFO  - Checkpoint 48: "Denver" = "Denver" passed
+2026-07-14 06:35:42,430 [22] INFO  - Checkpoint 49: "03:12 PM" = "03:12 PM" passed
+2026-07-14 06:35:42,430 [22] INFO  - Checkpoint 50: "15840" = "15840" passed
+2026-07-14 06:35:42,439 [22] INFO  - Checkpoint 51: "173.47" = "173.47" passed
+2026-07-14 06:35:42,439 [22] INFO  - Checkpoint 53: "AA" = "AA" passed
+2026-07-14 06:35:42,439 [22] INFO  - Checkpoint 54: "Frankfurt" = "Frankfurt" passed
+2026-07-14 06:35:42,439 [22] INFO  - Checkpoint 55: "03:57 PM" = "03:57 PM" passed
+2026-07-14 06:35:42,446 [22] INFO  - Checkpoint 56: "Denver" = "Denver" passed
+2026-07-14 06:35:42,446 [22] INFO  - Checkpoint 57: "03:12 PM" = "03:12 PM" passed
+2026-07-14 06:35:42,446 [22] INFO  - Checkpoint 58: "15841" = "15841" passed
+2026-07-14 06:35:42,446 [22] INFO  - Checkpoint 59: "103" = "103" passed
+2026-07-14 06:35:42,446 [22] INFO  - Checkpoint 61: "AF" = "AF" passed
+2026-07-14 06:35:42,446 [22] INFO  - Checkpoint 62: "Frankfurt" = "Frankfurt" passed
+2026-07-14 06:35:42,446 [22] INFO  - Checkpoint 63: "06:42 PM" = "06:42 PM" passed
+2026-07-14 06:35:42,461 [22] INFO  - Checkpoint 64: "Denver" = "Denver" passed
+2026-07-14 06:35:42,461 [22] INFO  - Checkpoint 65: "03:12 PM" = "03:12 PM" passed
+2026-07-14 06:35:42,461 [22] INFO  - Checkpoint 66: "15842" = "15842" passed
+2026-07-14 06:35:42,461 [22] INFO  - Checkpoint 67: "174.47" = "174.47" passed
+2026-07-14 06:35:42,470 [22] INFO  - Checkpoint 69: "NW" = "NW" passed
+2026-07-14 06:35:42,470 [22] INFO  - Checkpoint 70: "Frankfurt" = "Frankfurt" passed
+2026-07-14 06:35:42,470 [22] INFO  - Checkpoint 71: "02:53 PM" = "02:53 PM" passed
+2026-07-14 06:35:42,470 [22] INFO  - Checkpoint 72: "Denver" = "Denver" passed
+2026-07-14 06:35:42,478 [22] INFO  - Checkpoint 73: "02:09 PM" = "02:09 PM" passed
+2026-07-14 06:35:42,478 [22] INFO  - Checkpoint 74: "15932" = "15932" passed
+2026-07-14 06:35:42,478 [22] INFO  - Checkpoint 75: "179.47" = "179.47" passed
+2026-07-14 06:35:42,478 [22] INFO  - Step 'GetFlights' ended successfully
+2026-07-14 06:35:42,478 [22] INFO  - Step 'Iteration 1' ended successfully
+2026-07-14 06:35:42,478 [22] INFO  - Step 'Test Flow' ended successfully
+2026-07-14 06:35:42,478 [22] INFO  - Step 'End' : Step 'End' started
+2026-07-14 06:35:42,501 [22] INFO  - Step 'End' ended successfully

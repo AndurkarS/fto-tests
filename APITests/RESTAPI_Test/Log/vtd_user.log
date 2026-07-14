@@ -1,0 +1,401 @@
+2026-07-14 06:46:49,267 [1] INFO  - Loaded appender: FileAppenderExternal
+2026-07-14 06:46:49,283 [1] INFO  - Loaded appender: UserLoggerAppender
+2026-07-14 06:46:49,283 [1] INFO  - Loaded appender: FileAppenderInternal
+2026-07-14 06:46:49,283 [1] INFO  - Loaded appender: FileAppenderExternal
+2026-07-14 06:46:49,283 [1] INFO  - Loaded appender: UserLoggerAppender
+2026-07-14 06:46:49,283 [1] INFO  - Loaded appender: FileAppenderInternal
+2026-07-14 06:46:49,679 [22] INFO  - Step 'Start' : Step 'Start' started
+2026-07-14 06:46:49,711 [22] INFO  - Step 'Start' ended successfully
+2026-07-14 06:46:49,711 [22] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2026-07-14 06:46:49,711 [22] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2026-07-14 06:46:49,726 [22] INFO  - Step 'GetCategories4' : Step 'GetCategories4' started
+2026-07-14 06:46:49,727 [22] INFO  - Step 'GetCategories4' : Fetching HTTP Url: 'https://advantageonlineshopping.com/catalog/api/v1/categories'
+2026-07-14 06:46:50,454 [22] INFO  - Step 'GetCategories4' : Server returned status code: 200
+2026-07-14 06:46:50,454 [22] INFO  - Step 'GetCategories4' : HTTP Raw request:
+2026-07-14 06:46:50,470 [22] INFO  - Step 'GetCategories4' : GET https://advantageonlineshopping.com/catalog/api/v1/categories 1.1
+Host: advantageonlineshopping.com
+Connection: Keep-Alive
+
+2026-07-14 06:46:50,470 [22] INFO  - Step 'GetCategories4' : HTTP Raw response:
+2026-07-14 06:46:50,470 [22] INFO  - Step 'GetCategories4' : HTTP/1.1 200 
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+vary: accept-encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Cache-Control: no-store
+Content-Type: application/json
+Date: Tue, 14 Jul 2026 06:46:50 GMT
+Expires: 0
+Server: nginx/1.18.0 (Ubuntu)
+[{"categoryId":1,"categoryName":"LAPTOPS","managedImageId":"laptops","products":[{"id":8,"productName":"HP ZBook 17 G2 Mobile Workstation","price":1799.0,"description":"On the go creativity knows no limits on a vivid 17.3 inch diagonal HP ZBook 17 G2. Showcase your best work in the office or on the go and take advantage of HP’s most powerful processing, graphics, simple scalability, and blazing-fast connectivity to perform and collaborate at the speed of creativity.","productStatus":"Active","managedImageId":"1800"},{"id":6,"productName":"HP ENVY x360 - 15t Laptop","price":699.99,"description":"We took our remarkable 360° convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks.","productStatus":"Active","managedImageId":"1600"},{"id":11,"productName":"HP Pavilion x360 - 11t Touch Laptop","price":319.99,"description":"There’s no limit to what this value-packed convertible PC can do. Easily convert from notebook to stand to tent to tablet mode. It’s an app-loving, friend-connecting, 360°-bending machine.","productStatus":"Active","managedImageId":"11100"},{"id":10,"productName":"HP Chromebook 14 G1(ES)","price":1261.99,"description":"Introducing the next generation HP EliteBook Folio 9480m Ultrabook™[2]. Timeless, ultra slim profile in an all metal design with optional 4G Broadband wWAN, and 4th Generation Intel® Core™ Processing Technology.","productStatus":"Active","managedImageId":"1250"},{"id":1,"productName":"HP Pavilion 15t Touch Laptop","price":519.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1100"},{"id":2,"productName":"HP Pavilion 15z Laptop","price":549.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1200"},{"id":5,"productName":"HP Stream - 11-d020nr Laptop","price":179.99,"description":"Work from a happy place with a stylish, affordable, Windows-based PC. Store your content in the cloud for easy access from anywhere you have internet.","productStatus":"Active","managedImageId":"1245"},{"id":3,"productName":"HP Pavilion 15z Touch Laptop","price":449.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1300"},{"id":7,"productName":"HP ENVY - 17t Touch Laptop","price":849.99,"description":"We took our remarkable 360° convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks.","productStatus":"Active","managedImageId":"1700"},{"id":9,"productName":"HP Chromebook 14 G1(ENERGY STAR)","price":299.99,"description":"This HP notebook is all about getting the perfect combination of design, reliability, and features. Style and productivity while keeping your wallet in mind - now that's something to get excited about.","productStatus":"Active","managedImageId":"1249"},{"id":4,"productName":"HP Spectre x360 - 13-4102dx","price":1399.99,"description":"Stunning, ultra-slim convertible PC with a 360° hinge","productStatus":"Active","managedImageId":"1400"}]},{"categoryId":2,"categoryName":"HEADPHONES","managedImageId":"headphones","products":[{"id":14,"productName":"Logitech USB Headset H390","price":39.99,"description":"Features on this product will exceeded your expectations.","productStatus":"Active","managedImageId":"2400"},{"id":41,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":43,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":48,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":39,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":46,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":53,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":47,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":45,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":37,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":44,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":49,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":36,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":52,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":54,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":42,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":51,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":12,"productName":"HP H2310 In-ear Headset","price":13.99,"description":"Enjoy an acoustic concert in your ears with HP’s In-Ear Headset H2310. Available in trend-setting design in four color options and compatible with most smartphones, MP3 players and tablets – including Android™ and Apple®. Easily switch from jamming to tunes to connecting with friends using the inline microphone. Quality craftsmanship, value priced, and awesome sound.","productStatus":"Active","managedImageId":"2100"},{"id":13,"productName":"Bose SoundLink Around-ear Wireless Headphones II","price":279.95,"description":"Wireless freedom meets best-in-class sound.","productStatus":"OutOfStock","managedImageId":"2300"},{"id":38,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":15,"productName":"Beats Studio 2 Over-Ear Matte Black Headphones","price":179.99,"description":"The world’s most famous headphone has been completely redesigned and reimagined. The new Beats Studio® is lighter, sexier, stronger, and more comfortable, with precision sound, Adaptive Noise Canceling, a 20-hour rechargeable battery, and RemoteTalk™. It has all the energy and excitement you expect from Beats, plus a powerful, reengineered sound.","productStatus":"Active","managedImageId":"2200"},{"id":35,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":40,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"},{"id":50,"productName":"game of thrones","price":10000.0,"description":"My book","productStatus":"Active","managedImageId":"1245"}]},{"categoryId":3,"categoryName":"TABLETS","managedImageId":"tablets","products":[{"id":17,"productName":"HP Elite x2 1011 G1 Tablet","price":1279.0,"description":"Ultrabook™[2] Power\nPower up for ultimate power with Windows 8.1,[1] 5th Gen Intel® Core™ M processors,[4] with optional vPro™[5] and long battery life provided by dual tablet and keyboard base batteries.","productStatus":"Active","managedImageId":"3200"},{"id":16,"productName":"HP ElitePad 1000 G2 Tablet","price":1009.0,"description":"More than a tablet—a total business solution. The elegant and sleek HP ElitePad 1000 G2 has the performance and flexibility to transform the way you work. Redefine productivity and stay light with the confidence of the leading manageability, security, and support you expect from HP.","productStatus":"Active","managedImageId":"3100"},{"id":18,"productName":"HP Pro Tablet 608 G1","price":479.0,"description":"Transform your business with this small stylish business tablet equipped with a brilliant, high definition display and the pervasive connectivity to mobilize nearly any business process. Choose from an expansive choice of accessories[2] for a customized experience.","productStatus":"Active","managedImageId":"3300"}]},{"categoryId":4,"categoryName":"SPEAKERS","managedImageId":"speakers","products":[{"id":22,"productName":"HP Roar Wireless Speaker","price":84.99,"description":"Showcase your music anywhere with the ease of wireless Bluetooth® connectivity.","productStatus":"Active","managedImageId":"4400"},{"id":23,"productName":"Logitech X100 Speaker System - Wireless Speaker(s)","price":49.99,"description":"Pump up the volume and enjoy crystal-clear sound from this mobile speaker. This portable speaker is perfect for life on-the-go. Take it on the road or relax and listen at home because this mobile speaker goes everywhere. Simple, intuitive design lets you wirelessly connect and stream music from your Bluetooth-enabled device from up to 30' away. Easily manage phone calls and volume control from your mobile phone. Enjoy five hours of continuous play before you need to recharge. Recharge the built-in, lithium-ion battery with the convenience of the included micro-USB cable.","productStatus":"Active","managedImageId":"4500"},{"id":25,"productName":"Bose SoundLink Wireless Speaker","price":129.0,"description":"If music is your motivation, wait until you hear the SoundLink® Color Bluetooth speaker. It plays your favorite tunes from your favorite Bluetooth device-out loud in clear, full audio-just about anywhere you want to go. It's small, durable and simple to use. And it comes in a spectrum of colors to match almost any style.","productStatus":"Active","managedImageId":"4700"},{"id":19,"productName":"HP S9500 Bluetooth Wireless Speaker","price":200.0,"description":"Impress … everyone! Futuristic design with perforated steel formed into subtle angles. Requiring only minimal space, this speaker is the ideal complement to any setting.","productStatus":"Active","managedImageId":"4100"},{"id":20,"productName":"Bose Soundlink Bluetooth Speaker III","price":269.99,"description":"Meet the speaker that brings your music and friends together-with a style that's all your own. The SoundLink® Bluetooth speaker III is our best-performing mobile Bluetooth speaker. It plays louder and longer than its popular predecessor, with advanced Bose® technologies that reproduce the fullness, clarity and depth of your music. And a colorful assortment of optional covers let you personalize your speaker.","productStatus":"Active","managedImageId":"4200"},{"id":21,"productName":"HP Roar Plus Wireless Speaker","price":169.99,"description":"Showcase your music anywhere with the ease of wireless Bluetooth® connectivity.","productStatus":"Active","managedImageId":"4300"},{"id":24,"productName":"HP Roar Mini Wireless Speaker","price":44.99,"description":"Attention-getting design, color, and sound - the HP Roar Mini Wireless Speaker. Exceptional size-defying audio while streaming music and calls from a distinctively compact speaker.","productStatus":"Active","managedImageId":"4600"}]},{"categoryId":5,"categoryName":"MICE","managedImageId":"mice","products":[{"id":31,"productName":"Logitech G502 Proteus Core","price":79.99,"description":"MAKE IT YOURS!\nProteus Core perfectly tuned by you.\nProteus Core allows you to change the weight, balance, and enables you to adapt to wherever you choose to play. Customize it to the way you game and make it yours!\n\nPERSONALLY-TUNED PERFORMANCE\nAdapts to your environment\nFine tune the optical sensor in Proteus Core to your playing surface for better accuracy, precision and responsiveness. A quick tuning process, and you are battle ready.","productStatus":"Active","managedImageId":"5600"},{"id":34,"productName":"Microsoft Sculpt Touch Mouse","price":49.99,"description":"Looking for a portable mouse that helps you get things done? Sculpt Touch Mouse saves time in long documents and works virtually anywhere, with no cables or transceivers to connect. And it's designed to fit comfortably in either hand.\nThe four-way touch scrolling pad on the Sculpt Touch Mouse lets you breeze up and down, left and right, and through windows and documents with just the swipe of your finger. While you scroll, you'll feel the nice surprise of tactile feedback. Sculpt Touch Mouse is also a powerful complement to Windows 8, navigating fluidly and intuitively around the Start Screen.\n","productStatus":"Active","managedImageId":"5900"},{"id":29,"productName":"HP USB 3 Button Optical Mouse","price":9.99,"description":"Smooth and Accurate - The HP USB 3-Button Optical Mouse is the affordable desktop optical mouse solution that combines functionality with style","productStatus":"Active","managedImageId":"5400"},{"id":27,"productName":"HP Z3600 Wireless Mouse","price":15.99,"description":"The tiny HP Wireless Mouse Z3600 provides stylish comfort and control for your mobile computing needs. With optical tracking, 3 button controls, and the freedom to connect up to 30ft (10m) away, this compact mouse provides oversized performance.","productStatus":"Active","managedImageId":"5200"},{"id":32,"productName":"Kensington Orbit 72337 Trackball with Scroll Ring","price":39.99,"description":"All-day comfort and scrolling come together in the Kensington Orbit Trackball with Scroll Ring. The scroll ring allows you to fly through web pages and documents. And all while delivering comfort and space savings no mouse can match.","productStatus":"Active","managedImageId":"5700"},{"id":33,"productName":"HP Z8000 Bluetooth Mouse","price":50.99,"description":"The exquisite HP Z8000 Bluetooth Mouse is only 18mm (.7in) height, saves power with Bluetooth® Low Energy connectivity, and provides effortless capacitive touch control. The future is here.","productStatus":"Active","managedImageId":"5800"},{"id":26,"productName":"Kensington Orbit 72352 Trackball","price":59.99,"description":"The Kensington Orbit Wireless Mobile Trackball offers a precise, compact and versatile experience with a centered-ball design. With no wires to tie you down, the 2.4 GHz wireless with storable nano receiver works wherever you do -- at your home or office. And the unique touch scrolling lets you glide effortlessly through web pages and documents.","productStatus":"Active","managedImageId":"5100"},{"id":28,"productName":"HP Z3200 Wireless Mouse","price":29.99,"description":"The HP Wireless Mouse Z3200 provides powerful Blue LED optical tracking. Its ambidextrous shape and familiar button controls are easy to use. Compact contoured control.","productStatus":"Active","managedImageId":"5300"},{"id":30,"productName":"HP Z4000 Wireless Mouse","price":9.99,"description":"The sleek and low-profiled design make the Z4000 the must-have companion to every thin notebook or tablet. Style and comfort within a dynamic ultra-mobile wireless mouse.","productStatus":"Active","managedImageId":"5505"}]}]
+2026-07-14 06:46:50,486 [22] INFO  - Checkpoint 0: "5" = "5" passed
+2026-07-14 06:46:50,486 [22] INFO  - Checkpoint 3: "1" = "1" passed
+2026-07-14 06:46:50,502 [22] INFO  - Checkpoint 4: "LAPTOPS" = "LAPTOPS" passed
+2026-07-14 06:46:50,502 [22] INFO  - Checkpoint 5: "laptops" = "laptops" passed
+2026-07-14 06:46:50,502 [22] INFO  - Checkpoint 6: "11" = "11" passed
+2026-07-14 06:46:50,507 [22] ERROR - Checkpoint 9: "8" = "4" failed
+2026-07-14 06:46:50,507 [22] ERROR - Checkpoint 10: "HP ZBook 17 G2 Mobile Workstation" = "HP Spectre x360 - 13-4102dx" failed
+2026-07-14 06:46:50,507 [22] ERROR - Checkpoint 11: "1799" = "1399.99" failed
+2026-07-14 06:46:50,507 [22] ERROR - Checkpoint 12: "On the go creativity knows no limits on a vivid 17.3 inch diagonal HP ZBook 17 G2. Showcase your best work in the office or on the go and take advantage of HP’s most powerful processing, graphics, simple scalability, and blazing-fast connectivity to perform and collaborate at the speed of creativity." = "Stunning, ultra-slim convertible PC with a 360° hinge" failed
+2026-07-14 06:46:50,518 [22] INFO  - Checkpoint 13: "Active" = "Active" passed
+2026-07-14 06:46:50,518 [22] ERROR - Checkpoint 14: "1800" = "1400" failed
+2026-07-14 06:46:50,518 [22] ERROR - Checkpoint 16: "6" = "5" failed
+2026-07-14 06:46:50,518 [22] ERROR - Checkpoint 17: "HP ENVY x360 - 15t Laptop" = "HP Stream - 11-d020nr Laptop" failed
+2026-07-14 06:46:50,518 [22] ERROR - Checkpoint 18: "699.99" = "179.99" failed
+2026-07-14 06:46:50,518 [22] ERROR - Checkpoint 19: "We took our remarkable 360° convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks." = "Work from a happy place with a stylish, affordable, Windows-based PC. Store your content in the cloud for easy access from anywhere you have internet." failed
+2026-07-14 06:46:50,518 [22] INFO  - Checkpoint 20: "Active" = "Active" passed
+2026-07-14 06:46:50,518 [22] ERROR - Checkpoint 21: "1600" = "1245" failed
+2026-07-14 06:46:50,534 [22] ERROR - Checkpoint 23: "11" = "9" failed
+2026-07-14 06:46:50,534 [22] ERROR - Checkpoint 24: "HP Pavilion x360 - 11t Touch Laptop" = "HP Chromebook 14 G1(ENERGY STAR)" failed
+2026-07-14 06:46:50,534 [22] ERROR - Checkpoint 25: "319.99" = "299.99" failed
+2026-07-14 06:46:50,534 [22] ERROR - Checkpoint 26: "There’s no limit to what this value-packed convertible PC can do. Easily convert from notebook to stand to tent to tablet mode. It’s an app-loving, friend-connecting, 360°-bending machine." = "This HP notebook is all about getting the perfect combination of design, reliability, and features. Style and productivity while keeping your wallet in mind - now that's something to get excited about." failed
+2026-07-14 06:46:50,534 [22] INFO  - Checkpoint 27: "Active" = "Active" passed
+2026-07-14 06:46:50,534 [22] ERROR - Checkpoint 28: "11100" = "1249" failed
+2026-07-14 06:46:50,534 [22] INFO  - Checkpoint 30: "10" = "10" passed
+2026-07-14 06:46:50,534 [22] INFO  - Checkpoint 31: "HP Chromebook 14 G1(ES)" = "HP Chromebook 14 G1(ES)" passed
+2026-07-14 06:46:50,550 [22] INFO  - Checkpoint 32: "1261.99" = "1261.99" passed
+2026-07-14 06:46:50,550 [22] INFO  - Checkpoint 33: "Introducing the next generation HP EliteBook Folio 9480m Ultrabook™[2]. Timeless, ultra slim profile in an all metal design with optional 4G Broadband wWAN, and 4th Generation Intel® Core™ Processing Technology." = "Introducing the next generation HP EliteBook Folio 9480m Ultrabook™[2]. Timeless, ultra slim profile in an all metal design with optional 4G Broadband wWAN, and 4th Generation Intel® Core™ Processing Technology." passed
+2026-07-14 06:46:50,550 [22] INFO  - Checkpoint 34: "Active" = "Active" passed
+2026-07-14 06:46:50,550 [22] INFO  - Checkpoint 35: "1250" = "1250" passed
+2026-07-14 06:46:50,550 [22] ERROR - Checkpoint 37: "1" = "11" failed
+2026-07-14 06:46:50,565 [22] ERROR - Checkpoint 38: "HP Pavilion 15t Touch Laptop" = "HP Pavilion x360 - 11t Touch Laptop" failed
+2026-07-14 06:46:50,565 [22] ERROR - Checkpoint 39: "519.99" = "319.99" failed
+2026-07-14 06:46:50,565 [22] ERROR - Checkpoint 40: "Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style." = "There’s no limit to what this value-packed convertible PC can do. Easily convert from notebook to stand to tent to tablet mode. It’s an app-loving, friend-connecting, 360°-bending machine." failed
+2026-07-14 06:46:50,565 [22] INFO  - Checkpoint 41: "Active" = "Active" passed
+2026-07-14 06:46:50,581 [22] ERROR - Checkpoint 42: "1100" = "11100" failed
+2026-07-14 06:46:50,581 [22] ERROR - Checkpoint 44: "2" = "8" failed
+2026-07-14 06:46:50,581 [22] ERROR - Checkpoint 45: "HP Pavilion 15z Laptop" = "HP ZBook 17 G2 Mobile Workstation" failed
+2026-07-14 06:46:50,581 [22] ERROR - Checkpoint 46: "549.99" = "1799" failed
+2026-07-14 06:46:50,581 [22] ERROR - Checkpoint 47: "Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style." = "On the go creativity knows no limits on a vivid 17.3 inch diagonal HP ZBook 17 G2. Showcase your best work in the office or on the go and take advantage of HP’s most powerful processing, graphics, simple scalability, and blazing-fast connectivity to perform and collaborate at the speed of creativity." failed
+2026-07-14 06:46:50,581 [22] INFO  - Checkpoint 48: "Active" = "Active" passed
+2026-07-14 06:46:50,581 [22] ERROR - Checkpoint 49: "1200" = "1800" failed
+2026-07-14 06:46:50,581 [22] ERROR - Checkpoint 51: "5" = "2" failed
+2026-07-14 06:46:50,597 [22] ERROR - Checkpoint 52: "HP Stream - 11-d020nr Laptop" = "HP Pavilion 15z Laptop" failed
+2026-07-14 06:46:50,597 [22] ERROR - Checkpoint 53: "179.99" = "549.99" failed
+2026-07-14 06:46:50,597 [22] ERROR - Checkpoint 54: "Work from a happy place with a stylish, affordable, Windows-based PC. Store your content in the cloud for easy access from anywhere you have internet." = "Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style." failed
+2026-07-14 06:46:50,597 [22] INFO  - Checkpoint 55: "Active" = "Active" passed
+2026-07-14 06:46:50,597 [22] ERROR - Checkpoint 56: "1245" = "1200" failed
+2026-07-14 06:46:50,597 [22] ERROR - Checkpoint 58: "3" = "6" failed
+2026-07-14 06:46:50,597 [22] ERROR - Checkpoint 59: "HP Pavilion 15z Touch Laptop" = "HP ENVY x360 - 15t Laptop" failed
+2026-07-14 06:46:50,597 [22] ERROR - Checkpoint 60: "449.99" = "699.99" failed
+2026-07-14 06:46:50,597 [22] ERROR - Checkpoint 61: "Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style." = "We took our remarkable 360° convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks." failed
+2026-07-14 06:46:50,612 [22] INFO  - Checkpoint 62: "Active" = "Active" passed
+2026-07-14 06:46:50,612 [22] ERROR - Checkpoint 63: "1300" = "1600" failed
+2026-07-14 06:46:50,612 [22] INFO  - Checkpoint 65: "7" = "7" passed
+2026-07-14 06:46:50,612 [22] INFO  - Checkpoint 66: "HP ENVY - 17t Touch Laptop" = "HP ENVY - 17t Touch Laptop" passed
+2026-07-14 06:46:50,612 [22] INFO  - Checkpoint 67: "849.99" = "849.99" passed
+2026-07-14 06:46:50,612 [22] INFO  - Checkpoint 68: "We took our remarkable 360° convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks." = "We took our remarkable 360° convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks." passed
+2026-07-14 06:46:50,612 [22] INFO  - Checkpoint 69: "Active" = "Active" passed
+2026-07-14 06:46:50,612 [22] INFO  - Checkpoint 70: "1700" = "1700" passed
+2026-07-14 06:46:50,612 [22] ERROR - Checkpoint 72: "9" = "1" failed
+2026-07-14 06:46:50,628 [22] ERROR - Checkpoint 73: "HP Chromebook 14 G1(ENERGY STAR)" = "HP Pavilion 15t Touch Laptop" failed
+2026-07-14 06:46:50,628 [22] ERROR - Checkpoint 74: "299.99" = "519.99" failed
+2026-07-14 06:46:50,628 [22] ERROR - Checkpoint 75: "This HP notebook is all about getting the perfect combination of design, reliability, and features. Style and productivity while keeping your wallet in mind - now that's something to get excited about." = "Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style." failed
+2026-07-14 06:46:50,628 [22] INFO  - Checkpoint 76: "Active" = "Active" passed
+2026-07-14 06:46:50,628 [22] ERROR - Checkpoint 77: "1249" = "1100" failed
+2026-07-14 06:46:50,628 [22] ERROR - Checkpoint 79: "4" = "3" failed
+2026-07-14 06:46:50,628 [22] ERROR - Checkpoint 80: "HP Spectre x360 - 13-4102dx" = "HP Pavilion 15z Touch Laptop" failed
+2026-07-14 06:46:50,628 [22] ERROR - Checkpoint 81: "1399.99" = "449.99" failed
+2026-07-14 06:46:50,643 [22] ERROR - Checkpoint 82: "Stunning, ultra-slim convertible PC with a 360° hinge" = "Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style." failed
+2026-07-14 06:46:50,643 [22] INFO  - Checkpoint 83: "Active" = "Active" passed
+2026-07-14 06:46:50,643 [22] ERROR - Checkpoint 84: "1400" = "1300" failed
+2026-07-14 06:46:50,643 [22] INFO  - Checkpoint 86: "2" = "2" passed
+2026-07-14 06:46:50,643 [22] INFO  - Checkpoint 87: "HEADPHONES" = "HEADPHONES" passed
+2026-07-14 06:46:50,643 [22] INFO  - Checkpoint 88: "headphones" = "headphones" passed
+2026-07-14 06:46:50,659 [22] INFO  - Checkpoint 89: "24" = "24" passed
+2026-07-14 06:46:50,659 [22] ERROR - Checkpoint 92: "14" = "44" failed
+2026-07-14 06:46:50,659 [22] ERROR - Checkpoint 93: "Logitech USB Headset H390" = "game of thrones" failed
+2026-07-14 06:46:50,659 [22] ERROR - Checkpoint 94: "39.99" = "10000" failed
+2026-07-14 06:46:50,659 [22] ERROR - Checkpoint 95: "Features on this product will exceeded your expectations." = "My book" failed
+2026-07-14 06:46:50,659 [22] INFO  - Checkpoint 96: "Active" = "Active" passed
+2026-07-14 06:46:50,675 [22] ERROR - Checkpoint 97: "2400" = "1245" failed
+2026-07-14 06:46:50,675 [22] ERROR - Checkpoint 99: "41" = "38" failed
+2026-07-14 06:46:50,675 [22] INFO  - Checkpoint 100: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,675 [22] INFO  - Checkpoint 101: "10000" = "10000" passed
+2026-07-14 06:46:50,675 [22] INFO  - Checkpoint 102: "My book" = "My book" passed
+2026-07-14 06:46:50,675 [22] INFO  - Checkpoint 103: "Active" = "Active" passed
+2026-07-14 06:46:50,675 [22] INFO  - Checkpoint 104: "1245" = "1245" passed
+2026-07-14 06:46:50,675 [22] ERROR - Checkpoint 106: "43" = "13" failed
+2026-07-14 06:46:50,690 [22] ERROR - Checkpoint 107: "game of thrones" = "Bose SoundLink Around-ear Wireless Headphones II" failed
+2026-07-14 06:46:50,690 [22] ERROR - Checkpoint 108: "10000" = "279.95" failed
+2026-07-14 06:46:50,690 [22] ERROR - Checkpoint 109: "My book" = "Wireless freedom meets best-in-class sound." failed
+2026-07-14 06:46:50,690 [22] ERROR - Checkpoint 110: "Active" = "OutOfStock" failed
+2026-07-14 06:46:50,690 [22] ERROR - Checkpoint 111: "1245" = "2300" failed
+2026-07-14 06:46:50,690 [22] INFO  - Checkpoint 113: "48" = "48" passed
+2026-07-14 06:46:50,690 [22] INFO  - Checkpoint 114: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,690 [22] INFO  - Checkpoint 115: "10000" = "10000" passed
+2026-07-14 06:46:50,690 [22] INFO  - Checkpoint 116: "My book" = "My book" passed
+2026-07-14 06:46:50,690 [22] INFO  - Checkpoint 117: "Active" = "Active" passed
+2026-07-14 06:46:50,706 [22] INFO  - Checkpoint 118: "1245" = "1245" passed
+2026-07-14 06:46:50,706 [22] ERROR - Checkpoint 120: "39" = "51" failed
+2026-07-14 06:46:50,706 [22] INFO  - Checkpoint 121: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,706 [22] INFO  - Checkpoint 122: "10000" = "10000" passed
+2026-07-14 06:46:50,706 [22] INFO  - Checkpoint 123: "My book" = "My book" passed
+2026-07-14 06:46:50,706 [22] INFO  - Checkpoint 124: "Active" = "Active" passed
+2026-07-14 06:46:50,706 [22] INFO  - Checkpoint 125: "1245" = "1245" passed
+2026-07-14 06:46:50,706 [22] ERROR - Checkpoint 127: "46" = "12" failed
+2026-07-14 06:46:50,722 [22] ERROR - Checkpoint 128: "game of thrones" = "HP H2310 In-ear Headset" failed
+2026-07-14 06:46:50,722 [22] ERROR - Checkpoint 129: "10000" = "13.99" failed
+2026-07-14 06:46:50,722 [22] ERROR - Checkpoint 130: "My book" = "Enjoy an acoustic concert in your ears with HP’s In-Ear Headset H2310. Available in trend-setting design in four color options and compatible with most smartphones, MP3 players and tablets – including Android™ and Apple®. Easily switch from jamming to tunes to connecting with friends using the inline microphone. Quality craftsmanship, value priced, and awesome sound." failed
+2026-07-14 06:46:50,722 [22] INFO  - Checkpoint 131: "Active" = "Active" passed
+2026-07-14 06:46:50,722 [22] ERROR - Checkpoint 132: "1245" = "2100" failed
+2026-07-14 06:46:50,722 [22] ERROR - Checkpoint 134: "53" = "14" failed
+2026-07-14 06:46:50,722 [22] ERROR - Checkpoint 135: "game of thrones" = "Logitech USB Headset H390" failed
+2026-07-14 06:46:50,722 [22] ERROR - Checkpoint 136: "10000" = "39.99" failed
+2026-07-14 06:46:50,722 [22] ERROR - Checkpoint 137: "My book" = "Features on this product will exceeded your expectations." failed
+2026-07-14 06:46:50,737 [22] INFO  - Checkpoint 138: "Active" = "Active" passed
+2026-07-14 06:46:50,737 [22] ERROR - Checkpoint 139: "1245" = "2400" failed
+2026-07-14 06:46:50,737 [22] ERROR - Checkpoint 141: "47" = "36" failed
+2026-07-14 06:46:50,753 [22] INFO  - Checkpoint 142: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,753 [22] INFO  - Checkpoint 143: "10000" = "10000" passed
+2026-07-14 06:46:50,753 [22] INFO  - Checkpoint 144: "My book" = "My book" passed
+2026-07-14 06:46:50,753 [22] INFO  - Checkpoint 145: "Active" = "Active" passed
+2026-07-14 06:46:50,753 [22] INFO  - Checkpoint 146: "1245" = "1245" passed
+2026-07-14 06:46:50,753 [22] ERROR - Checkpoint 148: "45" = "40" failed
+2026-07-14 06:46:50,753 [22] INFO  - Checkpoint 149: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,753 [22] INFO  - Checkpoint 150: "10000" = "10000" passed
+2026-07-14 06:46:50,768 [22] INFO  - Checkpoint 151: "My book" = "My book" passed
+2026-07-14 06:46:50,768 [22] INFO  - Checkpoint 152: "Active" = "Active" passed
+2026-07-14 06:46:50,768 [22] INFO  - Checkpoint 153: "1245" = "1245" passed
+2026-07-14 06:46:50,768 [22] ERROR - Checkpoint 155: "37" = "47" failed
+2026-07-14 06:46:50,768 [22] INFO  - Checkpoint 156: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,768 [22] INFO  - Checkpoint 157: "10000" = "10000" passed
+2026-07-14 06:46:50,768 [22] INFO  - Checkpoint 158: "My book" = "My book" passed
+2026-07-14 06:46:50,784 [22] INFO  - Checkpoint 159: "Active" = "Active" passed
+2026-07-14 06:46:50,784 [22] INFO  - Checkpoint 160: "1245" = "1245" passed
+2026-07-14 06:46:50,784 [22] ERROR - Checkpoint 162: "44" = "41" failed
+2026-07-14 06:46:50,784 [22] INFO  - Checkpoint 163: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,784 [22] INFO  - Checkpoint 164: "10000" = "10000" passed
+2026-07-14 06:46:50,784 [22] INFO  - Checkpoint 165: "My book" = "My book" passed
+2026-07-14 06:46:50,784 [22] INFO  - Checkpoint 166: "Active" = "Active" passed
+2026-07-14 06:46:50,784 [22] INFO  - Checkpoint 167: "1245" = "1245" passed
+2026-07-14 06:46:50,800 [22] ERROR - Checkpoint 169: "49" = "50" failed
+2026-07-14 06:46:50,815 [22] INFO  - Checkpoint 170: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,815 [22] INFO  - Checkpoint 171: "10000" = "10000" passed
+2026-07-14 06:46:50,815 [22] INFO  - Checkpoint 172: "My book" = "My book" passed
+2026-07-14 06:46:50,815 [22] INFO  - Checkpoint 173: "Active" = "Active" passed
+2026-07-14 06:46:50,815 [22] INFO  - Checkpoint 174: "1245" = "1245" passed
+2026-07-14 06:46:50,815 [22] ERROR - Checkpoint 176: "36" = "45" failed
+2026-07-14 06:46:50,831 [22] INFO  - Checkpoint 177: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,831 [22] INFO  - Checkpoint 178: "10000" = "10000" passed
+2026-07-14 06:46:50,831 [22] INFO  - Checkpoint 179: "My book" = "My book" passed
+2026-07-14 06:46:50,831 [22] INFO  - Checkpoint 180: "Active" = "Active" passed
+2026-07-14 06:46:50,831 [22] INFO  - Checkpoint 181: "1245" = "1245" passed
+2026-07-14 06:46:50,831 [22] ERROR - Checkpoint 183: "52" = "15" failed
+2026-07-14 06:46:50,831 [22] ERROR - Checkpoint 184: "game of thrones" = "Beats Studio 2 Over-Ear Matte Black Headphones" failed
+2026-07-14 06:46:50,831 [22] ERROR - Checkpoint 185: "10000" = "179.99" failed
+2026-07-14 06:46:50,847 [22] ERROR - Checkpoint 186: "My book" = "The world’s most famous headphone has been completely redesigned and reimagined. The new Beats Studio® is lighter, sexier, stronger, and more comfortable, with precision sound, Adaptive Noise Canceling, a 20-hour rechargeable battery, and RemoteTalk™. It has all the energy and excitement you expect from Beats, plus a powerful, reengineered sound." failed
+2026-07-14 06:46:50,847 [22] INFO  - Checkpoint 187: "Active" = "Active" passed
+2026-07-14 06:46:50,847 [22] ERROR - Checkpoint 188: "1245" = "2200" failed
+2026-07-14 06:46:50,847 [22] ERROR - Checkpoint 190: "54" = "35" failed
+2026-07-14 06:46:50,862 [22] INFO  - Checkpoint 191: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,862 [22] INFO  - Checkpoint 192: "10000" = "10000" passed
+2026-07-14 06:46:50,862 [22] INFO  - Checkpoint 193: "My book" = "My book" passed
+2026-07-14 06:46:50,862 [22] INFO  - Checkpoint 194: "Active" = "Active" passed
+2026-07-14 06:46:50,862 [22] INFO  - Checkpoint 195: "1245" = "1245" passed
+2026-07-14 06:46:50,862 [22] ERROR - Checkpoint 197: "42" = "53" failed
+2026-07-14 06:46:50,862 [22] INFO  - Checkpoint 198: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,878 [22] INFO  - Checkpoint 199: "10000" = "10000" passed
+2026-07-14 06:46:50,878 [22] INFO  - Checkpoint 200: "My book" = "My book" passed
+2026-07-14 06:46:50,878 [22] INFO  - Checkpoint 201: "Active" = "Active" passed
+2026-07-14 06:46:50,878 [22] INFO  - Checkpoint 202: "1245" = "1245" passed
+2026-07-14 06:46:50,878 [22] ERROR - Checkpoint 204: "51" = "49" failed
+2026-07-14 06:46:50,878 [22] INFO  - Checkpoint 205: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,878 [22] INFO  - Checkpoint 206: "10000" = "10000" passed
+2026-07-14 06:46:50,878 [22] INFO  - Checkpoint 207: "My book" = "My book" passed
+2026-07-14 06:46:50,878 [22] INFO  - Checkpoint 208: "Active" = "Active" passed
+2026-07-14 06:46:50,893 [22] INFO  - Checkpoint 209: "1245" = "1245" passed
+2026-07-14 06:46:50,893 [22] ERROR - Checkpoint 211: "12" = "52" failed
+2026-07-14 06:46:50,893 [22] ERROR - Checkpoint 212: "HP H2310 In-ear Headset" = "game of thrones" failed
+2026-07-14 06:46:50,893 [22] ERROR - Checkpoint 213: "13.99" = "10000" failed
+2026-07-14 06:46:50,893 [22] ERROR - Checkpoint 214: "Enjoy an acoustic concert in your ears with HP’s In-Ear Headset H2310. Available in trend-setting design in four color options and compatible with most smartphones, MP3 players and tablets – including Android™ and Apple®. Easily switch from jamming to tunes to connecting with friends using the inline microphone. Quality craftsmanship, value priced, and awesome sound." = "My book" failed
+2026-07-14 06:46:50,893 [22] INFO  - Checkpoint 215: "Active" = "Active" passed
+2026-07-14 06:46:50,893 [22] ERROR - Checkpoint 216: "2100" = "1245" failed
+2026-07-14 06:46:50,893 [22] ERROR - Checkpoint 218: "13" = "43" failed
+2026-07-14 06:46:50,893 [22] ERROR - Checkpoint 219: "Bose SoundLink Around-ear Wireless Headphones II" = "game of thrones" failed
+2026-07-14 06:46:50,909 [22] ERROR - Checkpoint 220: "279.95" = "10000" failed
+2026-07-14 06:46:50,909 [22] ERROR - Checkpoint 221: "Wireless freedom meets best-in-class sound." = "My book" failed
+2026-07-14 06:46:50,909 [22] ERROR - Checkpoint 222: "OutOfStock" = "Active" failed
+2026-07-14 06:46:50,909 [22] ERROR - Checkpoint 223: "2300" = "1245" failed
+2026-07-14 06:46:50,909 [22] ERROR - Checkpoint 225: "38" = "37" failed
+2026-07-14 06:46:50,909 [22] INFO  - Checkpoint 226: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,909 [22] INFO  - Checkpoint 227: "10000" = "10000" passed
+2026-07-14 06:46:50,909 [22] INFO  - Checkpoint 228: "My book" = "My book" passed
+2026-07-14 06:46:50,909 [22] INFO  - Checkpoint 229: "Active" = "Active" passed
+2026-07-14 06:46:50,925 [22] INFO  - Checkpoint 230: "1245" = "1245" passed
+2026-07-14 06:46:50,925 [22] ERROR - Checkpoint 232: "15" = "39" failed
+2026-07-14 06:46:50,925 [22] ERROR - Checkpoint 233: "Beats Studio 2 Over-Ear Matte Black Headphones" = "game of thrones" failed
+2026-07-14 06:46:50,925 [22] ERROR - Checkpoint 234: "179.99" = "10000" failed
+2026-07-14 06:46:50,925 [22] ERROR - Checkpoint 235: "The world’s most famous headphone has been completely redesigned and reimagined. The new Beats Studio® is lighter, sexier, stronger, and more comfortable, with precision sound, Adaptive Noise Canceling, a 20-hour rechargeable battery, and RemoteTalk™. It has all the energy and excitement you expect from Beats, plus a powerful, reengineered sound." = "My book" failed
+2026-07-14 06:46:50,925 [22] INFO  - Checkpoint 236: "Active" = "Active" passed
+2026-07-14 06:46:50,925 [22] ERROR - Checkpoint 237: "2200" = "1245" failed
+2026-07-14 06:46:50,925 [22] ERROR - Checkpoint 239: "35" = "42" failed
+2026-07-14 06:46:50,940 [22] INFO  - Checkpoint 240: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,940 [22] INFO  - Checkpoint 241: "10000" = "10000" passed
+2026-07-14 06:46:50,940 [22] INFO  - Checkpoint 242: "My book" = "My book" passed
+2026-07-14 06:46:50,940 [22] INFO  - Checkpoint 243: "Active" = "Active" passed
+2026-07-14 06:46:50,956 [22] INFO  - Checkpoint 244: "1245" = "1245" passed
+2026-07-14 06:46:50,956 [22] ERROR - Checkpoint 246: "40" = "46" failed
+2026-07-14 06:46:50,956 [22] INFO  - Checkpoint 247: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,956 [22] INFO  - Checkpoint 248: "10000" = "10000" passed
+2026-07-14 06:46:50,956 [22] INFO  - Checkpoint 249: "My book" = "My book" passed
+2026-07-14 06:46:50,956 [22] INFO  - Checkpoint 250: "Active" = "Active" passed
+2026-07-14 06:46:50,956 [22] INFO  - Checkpoint 251: "1245" = "1245" passed
+2026-07-14 06:46:50,956 [22] ERROR - Checkpoint 253: "50" = "54" failed
+2026-07-14 06:46:50,972 [22] INFO  - Checkpoint 254: "game of thrones" = "game of thrones" passed
+2026-07-14 06:46:50,972 [22] INFO  - Checkpoint 255: "10000" = "10000" passed
+2026-07-14 06:46:50,972 [22] INFO  - Checkpoint 256: "My book" = "My book" passed
+2026-07-14 06:46:50,972 [22] INFO  - Checkpoint 257: "Active" = "Active" passed
+2026-07-14 06:46:50,972 [22] INFO  - Checkpoint 258: "1245" = "1245" passed
+2026-07-14 06:46:50,972 [22] INFO  - Checkpoint 260: "3" = "3" passed
+2026-07-14 06:46:50,972 [22] INFO  - Checkpoint 261: "TABLETS" = "TABLETS" passed
+2026-07-14 06:46:50,972 [22] INFO  - Checkpoint 262: "tablets" = "tablets" passed
+2026-07-14 06:46:50,987 [22] INFO  - Checkpoint 263: "3" = "3" passed
+2026-07-14 06:46:50,987 [22] ERROR - Checkpoint 266: "17" = "16" failed
+2026-07-14 06:46:50,987 [22] ERROR - Checkpoint 267: "HP Elite x2 1011 G1 Tablet" = "HP ElitePad 1000 G2 Tablet" failed
+2026-07-14 06:46:50,987 [22] ERROR - Checkpoint 268: "1279" = "1009" failed
+2026-07-14 06:46:50,987 [22] ERROR - Checkpoint 269: "Ultrabook™[2] Power
+Power up for ultimate power with Windows 8.1,[1] 5th Gen Intel® Core™ M processors,[4] with optional vPro™[5] and long battery life provided by dual tablet and keyboard base batteries." = "More than a tablet—a total business solution. The elegant and sleek HP ElitePad 1000 G2 has the performance and flexibility to transform the way you work. Redefine productivity and stay light with the confidence of the leading manageability, security, and support you expect from HP." failed
+2026-07-14 06:46:50,987 [22] INFO  - Checkpoint 270: "Active" = "Active" passed
+2026-07-14 06:46:50,987 [22] ERROR - Checkpoint 271: "3200" = "3100" failed
+2026-07-14 06:46:50,987 [22] ERROR - Checkpoint 273: "16" = "17" failed
+2026-07-14 06:46:50,987 [22] ERROR - Checkpoint 274: "HP ElitePad 1000 G2 Tablet" = "HP Elite x2 1011 G1 Tablet" failed
+2026-07-14 06:46:51,003 [22] ERROR - Checkpoint 275: "1009" = "1279" failed
+2026-07-14 06:46:51,003 [22] ERROR - Checkpoint 276: "More than a tablet—a total business solution. The elegant and sleek HP ElitePad 1000 G2 has the performance and flexibility to transform the way you work. Redefine productivity and stay light with the confidence of the leading manageability, security, and support you expect from HP." = "Ultrabook™[2] Power
+Power up for ultimate power with Windows 8.1,[1] 5th Gen Intel® Core™ M processors,[4] with optional vPro™[5] and long battery life provided by dual tablet and keyboard base batteries." failed
+2026-07-14 06:46:51,003 [22] INFO  - Checkpoint 277: "Active" = "Active" passed
+2026-07-14 06:46:51,003 [22] ERROR - Checkpoint 278: "3100" = "3200" failed
+2026-07-14 06:46:51,003 [22] INFO  - Checkpoint 280: "18" = "18" passed
+2026-07-14 06:46:51,003 [22] INFO  - Checkpoint 281: "HP Pro Tablet 608 G1" = "HP Pro Tablet 608 G1" passed
+2026-07-14 06:46:51,003 [22] INFO  - Checkpoint 282: "479" = "479" passed
+2026-07-14 06:46:51,003 [22] INFO  - Checkpoint 283: "Transform your business with this small stylish business tablet equipped with a brilliant, high definition display and the pervasive connectivity to mobilize nearly any business process. Choose from an expansive choice of accessories[2] for a customized experience." = "Transform your business with this small stylish business tablet equipped with a brilliant, high definition display and the pervasive connectivity to mobilize nearly any business process. Choose from an expansive choice of accessories[2] for a customized experience." passed
+2026-07-14 06:46:51,018 [22] INFO  - Checkpoint 284: "Active" = "Active" passed
+2026-07-14 06:46:51,018 [22] INFO  - Checkpoint 285: "3300" = "3300" passed
+2026-07-14 06:46:51,018 [22] INFO  - Checkpoint 287: "4" = "4" passed
+2026-07-14 06:46:51,018 [22] INFO  - Checkpoint 288: "SPEAKERS" = "SPEAKERS" passed
+2026-07-14 06:46:51,018 [22] INFO  - Checkpoint 289: "speakers" = "speakers" passed
+2026-07-14 06:46:51,018 [22] INFO  - Checkpoint 290: "7" = "7" passed
+2026-07-14 06:46:51,034 [22] ERROR - Checkpoint 293: "22" = "25" failed
+2026-07-14 06:46:51,034 [22] ERROR - Checkpoint 294: "HP Roar Wireless Speaker" = "Bose SoundLink Wireless Speaker" failed
+2026-07-14 06:46:51,034 [22] ERROR - Checkpoint 295: "84.99" = "129" failed
+2026-07-14 06:46:51,034 [22] ERROR - Checkpoint 296: "Showcase your music anywhere with the ease of wireless Bluetooth® connectivity." = "If music is your motivation, wait until you hear the SoundLink® Color Bluetooth speaker. It plays your favorite tunes from your favorite Bluetooth device-out loud in clear, full audio-just about anywhere you want to go. It's small, durable and simple to use. And it comes in a spectrum of colors to match almost any style." failed
+2026-07-14 06:46:51,034 [22] INFO  - Checkpoint 297: "Active" = "Active" passed
+2026-07-14 06:46:51,050 [22] ERROR - Checkpoint 298: "4400" = "4700" failed
+2026-07-14 06:46:51,050 [22] INFO  - Checkpoint 300: "23" = "23" passed
+2026-07-14 06:46:51,050 [22] INFO  - Checkpoint 301: "Logitech X100 Speaker System - Wireless Speaker(s)" = "Logitech X100 Speaker System - Wireless Speaker(s)" passed
+2026-07-14 06:46:51,050 [22] INFO  - Checkpoint 302: "49.99" = "49.99" passed
+2026-07-14 06:46:51,050 [22] INFO  - Checkpoint 303: "Pump up the volume and enjoy crystal-clear sound from this mobile speaker. This portable speaker is perfect for life on-the-go. Take it on the road or relax and listen at home because this mobile speaker goes everywhere. Simple, intuitive design lets you wirelessly connect and stream music from your Bluetooth-enabled device from up to 30' away. Easily manage phone calls and volume control from your mobile phone. Enjoy five hours of continuous play before you need to recharge. Recharge the built-in, lithium-ion battery with the convenience of the included micro-USB cable." = "Pump up the volume and enjoy crystal-clear sound from this mobile speaker. This portable speaker is perfect for life on-the-go. Take it on the road or relax and listen at home because this mobile speaker goes everywhere. Simple, intuitive design lets you wirelessly connect and stream music from your Bluetooth-enabled device from up to 30' away. Easily manage phone calls and volume control from your mobile phone. Enjoy five hours of continuous play before you need to recharge. Recharge the built-in, lithium-ion battery with the convenience of the included micro-USB cable." passed
+2026-07-14 06:46:51,050 [22] INFO  - Checkpoint 304: "Active" = "Active" passed
+2026-07-14 06:46:51,050 [22] INFO  - Checkpoint 305: "4500" = "4500" passed
+2026-07-14 06:46:51,065 [22] ERROR - Checkpoint 307: "25" = "19" failed
+2026-07-14 06:46:51,065 [22] ERROR - Checkpoint 308: "Bose SoundLink Wireless Speaker" = "HP S9500 Bluetooth Wireless Speaker" failed
+2026-07-14 06:46:51,065 [22] ERROR - Checkpoint 309: "129" = "200" failed
+2026-07-14 06:46:51,065 [22] ERROR - Checkpoint 310: "If music is your motivation, wait until you hear the SoundLink® Color Bluetooth speaker. It plays your favorite tunes from your favorite Bluetooth device-out loud in clear, full audio-just about anywhere you want to go. It's small, durable and simple to use. And it comes in a spectrum of colors to match almost any style." = "Impress … everyone! Futuristic design with perforated steel formed into subtle angles. Requiring only minimal space, this speaker is the ideal complement to any setting." failed
+2026-07-14 06:46:51,065 [22] INFO  - Checkpoint 311: "Active" = "Active" passed
+2026-07-14 06:46:51,065 [22] ERROR - Checkpoint 312: "4700" = "4100" failed
+2026-07-14 06:46:51,065 [22] ERROR - Checkpoint 314: "19" = "20" failed
+2026-07-14 06:46:51,081 [22] ERROR - Checkpoint 315: "HP S9500 Bluetooth Wireless Speaker" = "Bose Soundlink Bluetooth Speaker III" failed
+2026-07-14 06:46:51,081 [22] ERROR - Checkpoint 316: "200" = "269.99" failed
+2026-07-14 06:46:51,081 [22] ERROR - Checkpoint 317: "Impress … everyone! Futuristic design with perforated steel formed into subtle angles. Requiring only minimal space, this speaker is the ideal complement to any setting." = "Meet the speaker that brings your music and friends together-with a style that's all your own. The SoundLink® Bluetooth speaker III is our best-performing mobile Bluetooth speaker. It plays louder and longer than its popular predecessor, with advanced Bose® technologies that reproduce the fullness, clarity and depth of your music. And a colorful assortment of optional covers let you personalize your speaker." failed
+2026-07-14 06:46:51,081 [22] INFO  - Checkpoint 318: "Active" = "Active" passed
+2026-07-14 06:46:51,081 [22] ERROR - Checkpoint 319: "4100" = "4200" failed
+2026-07-14 06:46:51,081 [22] ERROR - Checkpoint 321: "20" = "21" failed
+2026-07-14 06:46:51,081 [22] ERROR - Checkpoint 322: "Bose Soundlink Bluetooth Speaker III" = "HP Roar Plus Wireless Speaker" failed
+2026-07-14 06:46:51,081 [22] ERROR - Checkpoint 323: "269.99" = "169.99" failed
+2026-07-14 06:46:51,097 [22] ERROR - Checkpoint 324: "Meet the speaker that brings your music and friends together-with a style that's all your own. The SoundLink® Bluetooth speaker III is our best-performing mobile Bluetooth speaker. It plays louder and longer than its popular predecessor, with advanced Bose® technologies that reproduce the fullness, clarity and depth of your music. And a colorful assortment of optional covers let you personalize your speaker." = "Showcase your music anywhere with the ease of wireless Bluetooth® connectivity." failed
+2026-07-14 06:46:51,097 [22] INFO  - Checkpoint 325: "Active" = "Active" passed
+2026-07-14 06:46:51,222 [22] ERROR - Checkpoint 326: "4200" = "4300" failed
+2026-07-14 06:46:51,222 [22] ERROR - Checkpoint 328: "21" = "24" failed
+2026-07-14 06:46:51,222 [22] ERROR - Checkpoint 329: "HP Roar Plus Wireless Speaker" = "HP Roar Mini Wireless Speaker" failed
+2026-07-14 06:46:51,222 [22] ERROR - Checkpoint 330: "169.99" = "44.99" failed
+2026-07-14 06:46:51,237 [22] ERROR - Checkpoint 331: "Showcase your music anywhere with the ease of wireless Bluetooth® connectivity." = "Attention-getting design, color, and sound - the HP Roar Mini Wireless Speaker. Exceptional size-defying audio while streaming music and calls from a distinctively compact speaker." failed
+2026-07-14 06:46:51,237 [22] INFO  - Checkpoint 332: "Active" = "Active" passed
+2026-07-14 06:46:51,237 [22] ERROR - Checkpoint 333: "4300" = "4600" failed
+2026-07-14 06:46:51,237 [22] ERROR - Checkpoint 335: "24" = "22" failed
+2026-07-14 06:46:51,237 [22] ERROR - Checkpoint 336: "HP Roar Mini Wireless Speaker" = "HP Roar Wireless Speaker" failed
+2026-07-14 06:46:51,237 [22] ERROR - Checkpoint 337: "44.99" = "84.99" failed
+2026-07-14 06:46:51,237 [22] ERROR - Checkpoint 338: "Attention-getting design, color, and sound - the HP Roar Mini Wireless Speaker. Exceptional size-defying audio while streaming music and calls from a distinctively compact speaker." = "Showcase your music anywhere with the ease of wireless Bluetooth® connectivity." failed
+2026-07-14 06:46:51,237 [22] INFO  - Checkpoint 339: "Active" = "Active" passed
+2026-07-14 06:46:51,253 [22] ERROR - Checkpoint 340: "4600" = "4400" failed
+2026-07-14 06:46:51,253 [22] INFO  - Checkpoint 342: "5" = "5" passed
+2026-07-14 06:46:51,253 [22] INFO  - Checkpoint 343: "MICE" = "MICE" passed
+2026-07-14 06:46:51,253 [22] INFO  - Checkpoint 344: "mice" = "mice" passed
+2026-07-14 06:46:51,253 [22] INFO  - Checkpoint 345: "9" = "9" passed
+2026-07-14 06:46:51,253 [22] ERROR - Checkpoint 348: "31" = "26" failed
+2026-07-14 06:46:51,253 [22] ERROR - Checkpoint 349: "Logitech G502 Proteus Core" = "Kensington Orbit 72352 Trackball" failed
+2026-07-14 06:46:51,253 [22] ERROR - Checkpoint 350: "79.99" = "59.99" failed
+2026-07-14 06:46:51,268 [22] ERROR - Checkpoint 351: "MAKE IT YOURS!
+Proteus Core perfectly tuned by you.
+Proteus Core allows you to change the weight, balance, and enables you to adapt to wherever you choose to play. Customize it to the way you game and make it yours!
+
+PERSONALLY-TUNED PERFORMANCE
+Adapts to your environment
+Fine tune the optical sensor in Proteus Core to your playing surface for better accuracy, precision and responsiveness. A quick tuning process, and you are battle ready." = "The Kensington Orbit Wireless Mobile Trackball offers a precise, compact and versatile experience with a centered-ball design. With no wires to tie you down, the 2.4 GHz wireless with storable nano receiver works wherever you do -- at your home or office. And the unique touch scrolling lets you glide effortlessly through web pages and documents." failed
+2026-07-14 06:46:51,268 [22] INFO  - Checkpoint 352: "Active" = "Active" passed
+2026-07-14 06:46:51,268 [22] ERROR - Checkpoint 353: "5600" = "5100" failed
+2026-07-14 06:46:51,268 [22] INFO  - Checkpoint 355: "34" = "34" passed
+2026-07-14 06:46:51,268 [22] INFO  - Checkpoint 356: "Microsoft Sculpt Touch Mouse" = "Microsoft Sculpt Touch Mouse" passed
+2026-07-14 06:46:51,268 [22] INFO  - Checkpoint 357: "49.99" = "49.99" passed
+2026-07-14 06:46:51,268 [22] INFO  - Checkpoint 358: "Looking for a portable mouse that helps you get things done? Sculpt Touch Mouse saves time in long documents and works virtually anywhere, with no cables or transceivers to connect. And it's designed to fit comfortably in either hand.
+The four-way touch scrolling pad on the Sculpt Touch Mouse lets you breeze up and down, left and right, and through windows and documents with just the swipe of your finger. While you scroll, you'll feel the nice surprise of tactile feedback. Sculpt Touch Mouse is also a powerful complement to Windows 8, navigating fluidly and intuitively around the Start Screen.
+" = "Looking for a portable mouse that helps you get things done? Sculpt Touch Mouse saves time in long documents and works virtually anywhere, with no cables or transceivers to connect. And it's designed to fit comfortably in either hand.
+The four-way touch scrolling pad on the Sculpt Touch Mouse lets you breeze up and down, left and right, and through windows and documents with just the swipe of your finger. While you scroll, you'll feel the nice surprise of tactile feedback. Sculpt Touch Mouse is also a powerful complement to Windows 8, navigating fluidly and intuitively around the Start Screen.
+" passed
+2026-07-14 06:46:51,268 [22] INFO  - Checkpoint 359: "Active" = "Active" passed
+2026-07-14 06:46:51,284 [22] INFO  - Checkpoint 360: "5900" = "5900" passed
+2026-07-14 06:46:51,284 [22] INFO  - Checkpoint 362: "29" = "29" passed
+2026-07-14 06:46:51,284 [22] INFO  - Checkpoint 363: "HP USB 3 Button Optical Mouse" = "HP USB 3 Button Optical Mouse" passed
+2026-07-14 06:46:51,284 [22] INFO  - Checkpoint 364: "9.99" = "9.99" passed
+2026-07-14 06:46:51,284 [22] INFO  - Checkpoint 365: "Smooth and Accurate - The HP USB 3-Button Optical Mouse is the affordable desktop optical mouse solution that combines functionality with style" = "Smooth and Accurate - The HP USB 3-Button Optical Mouse is the affordable desktop optical mouse solution that combines functionality with style" passed
+2026-07-14 06:46:51,284 [22] INFO  - Checkpoint 366: "Active" = "Active" passed
+2026-07-14 06:46:51,284 [22] INFO  - Checkpoint 367: "5400" = "5400" passed
+2026-07-14 06:46:51,284 [22] ERROR - Checkpoint 369: "27" = "32" failed
+2026-07-14 06:46:51,300 [22] ERROR - Checkpoint 370: "HP Z3600 Wireless Mouse" = "Kensington Orbit 72337 Trackball with Scroll Ring" failed
+2026-07-14 06:46:51,300 [22] ERROR - Checkpoint 371: "15.99" = "39.99" failed
+2026-07-14 06:46:51,300 [22] ERROR - Checkpoint 372: "The tiny HP Wireless Mouse Z3600 provides stylish comfort and control for your mobile computing needs. With optical tracking, 3 button controls, and the freedom to connect up to 30ft (10m) away, this compact mouse provides oversized performance." = "All-day comfort and scrolling come together in the Kensington Orbit Trackball with Scroll Ring. The scroll ring allows you to fly through web pages and documents. And all while delivering comfort and space savings no mouse can match." failed
+2026-07-14 06:46:51,300 [22] INFO  - Checkpoint 373: "Active" = "Active" passed
+2026-07-14 06:46:51,315 [22] ERROR - Checkpoint 374: "5200" = "5700" failed
+2026-07-14 06:46:51,315 [22] ERROR - Checkpoint 376: "32" = "27" failed
+2026-07-14 06:46:51,315 [22] ERROR - Checkpoint 377: "Kensington Orbit 72337 Trackball with Scroll Ring" = "HP Z3600 Wireless Mouse" failed
+2026-07-14 06:46:51,315 [22] ERROR - Checkpoint 378: "39.99" = "15.99" failed
+2026-07-14 06:46:51,315 [22] ERROR - Checkpoint 379: "All-day comfort and scrolling come together in the Kensington Orbit Trackball with Scroll Ring. The scroll ring allows you to fly through web pages and documents. And all while delivering comfort and space savings no mouse can match." = "The tiny HP Wireless Mouse Z3600 provides stylish comfort and control for your mobile computing needs. With optical tracking, 3 button controls, and the freedom to connect up to 30ft (10m) away, this compact mouse provides oversized performance." failed
+2026-07-14 06:46:51,315 [22] INFO  - Checkpoint 380: "Active" = "Active" passed
+2026-07-14 06:46:51,315 [22] ERROR - Checkpoint 381: "5700" = "5200" failed
+2026-07-14 06:46:51,331 [22] ERROR - Checkpoint 383: "33" = "28" failed
+2026-07-14 06:46:51,331 [22] ERROR - Checkpoint 384: "HP Z8000 Bluetooth Mouse" = "HP Z3200 Wireless Mouse" failed
+2026-07-14 06:46:51,331 [22] ERROR - Checkpoint 385: "50.99" = "29.99" failed
+2026-07-14 06:46:51,331 [22] ERROR - Checkpoint 386: "The exquisite HP Z8000 Bluetooth Mouse is only 18mm (.7in) height, saves power with Bluetooth® Low Energy connectivity, and provides effortless capacitive touch control. The future is here." = "The HP Wireless Mouse Z3200 provides powerful Blue LED optical tracking. Its ambidextrous shape and familiar button controls are easy to use. Compact contoured control." failed
+2026-07-14 06:46:51,331 [22] INFO  - Checkpoint 387: "Active" = "Active" passed
+2026-07-14 06:46:51,331 [22] ERROR - Checkpoint 388: "5800" = "5300" failed
+2026-07-14 06:46:51,331 [22] ERROR - Checkpoint 390: "26" = "33" failed
+2026-07-14 06:46:51,347 [22] ERROR - Checkpoint 391: "Kensington Orbit 72352 Trackball" = "HP Z8000 Bluetooth Mouse" failed
+2026-07-14 06:46:51,347 [22] ERROR - Checkpoint 392: "59.99" = "50.99" failed
+2026-07-14 06:46:51,347 [22] ERROR - Checkpoint 393: "The Kensington Orbit Wireless Mobile Trackball offers a precise, compact and versatile experience with a centered-ball design. With no wires to tie you down, the 2.4 GHz wireless with storable nano receiver works wherever you do -- at your home or office. And the unique touch scrolling lets you glide effortlessly through web pages and documents." = "The exquisite HP Z8000 Bluetooth Mouse is only 18mm (.7in) height, saves power with Bluetooth® Low Energy connectivity, and provides effortless capacitive touch control. The future is here." failed
+2026-07-14 06:46:51,347 [22] INFO  - Checkpoint 394: "Active" = "Active" passed
+2026-07-14 06:46:51,347 [22] ERROR - Checkpoint 395: "5100" = "5800" failed
+2026-07-14 06:46:51,347 [22] ERROR - Checkpoint 397: "28" = "30" failed
+2026-07-14 06:46:51,347 [22] ERROR - Checkpoint 398: "HP Z3200 Wireless Mouse" = "HP Z4000 Wireless Mouse" failed
+2026-07-14 06:46:51,347 [22] ERROR - Checkpoint 399: "29.99" = "9.99" failed
+2026-07-14 06:46:51,362 [22] ERROR - Checkpoint 400: "The HP Wireless Mouse Z3200 provides powerful Blue LED optical tracking. Its ambidextrous shape and familiar button controls are easy to use. Compact contoured control." = "The sleek and low-profiled design make the Z4000 the must-have companion to every thin notebook or tablet. Style and comfort within a dynamic ultra-mobile wireless mouse." failed
+2026-07-14 06:46:51,362 [22] INFO  - Checkpoint 401: "Active" = "Active" passed
+2026-07-14 06:46:51,362 [22] ERROR - Checkpoint 402: "5300" = "5505" failed
+2026-07-14 06:46:51,362 [22] ERROR - Checkpoint 404: "30" = "31" failed
+2026-07-14 06:46:51,362 [22] ERROR - Checkpoint 405: "HP Z4000 Wireless Mouse" = "Logitech G502 Proteus Core" failed
+2026-07-14 06:46:51,362 [22] ERROR - Checkpoint 406: "9.99" = "79.99" failed
+2026-07-14 06:46:51,362 [22] ERROR - Checkpoint 407: "The sleek and low-profiled design make the Z4000 the must-have companion to every thin notebook or tablet. Style and comfort within a dynamic ultra-mobile wireless mouse." = "MAKE IT YOURS!
+Proteus Core perfectly tuned by you.
+Proteus Core allows you to change the weight, balance, and enables you to adapt to wherever you choose to play. Customize it to the way you game and make it yours!
+
+PERSONALLY-TUNED PERFORMANCE
+Adapts to your environment
+Fine tune the optical sensor in Proteus Core to your playing surface for better accuracy, precision and responsiveness. A quick tuning process, and you are battle ready." failed
+2026-07-14 06:46:51,362 [22] INFO  - Checkpoint 408: "Active" = "Active" passed
+2026-07-14 06:46:51,378 [22] ERROR - Checkpoint 409: "5505" = "5600" failed
+2026-07-14 06:46:51,378 [22] INFO  - Step 'GetCategories4' ended successfully
+2026-07-14 06:46:51,393 [22] INFO  - Step 'Iteration 1' ended successfully
+2026-07-14 06:46:51,393 [22] INFO  - Step 'Test Flow' ended successfully
+2026-07-14 06:46:51,393 [22] INFO  - Step 'End' : Step 'End' started
+2026-07-14 06:46:51,409 [22] INFO  - Step 'End' ended successfully
