@@ -3,4 +3,5 @@
     <Test name="Fail" path="ufto-tests\APITests\FlightSoapAPI_Fail"></Test>
     <Test name="Fail" path="ufto-tests\APITests\RESTAPI_Test"></Test>
     <Test name="Error" path="ufto-tests\Quicks\QuickError"></Test>
+	
 </Mtbx>
