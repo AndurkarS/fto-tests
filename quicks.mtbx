@@ -1,6 +1,9 @@
 <Mtbx>
-    <Test name="Pass" path="ufto-tests\Quicks\QuickPass"></Test>
+    <!--<Test name="Pass" path="ufto-tests\Quicks\QuickPass"></Test>
     <Test name="Warn" path="ufto-tests\Quicks\QuickWarn"></Test>
     <Test name="Fail" path="ufto-tests\Quicks\QuickFail"></Test>
-    <Test name="Error" path="ufto-tests\Quicks\QuickError"></Test>
+    <Test name="Error" path="ufto-tests\Quicks\QuickError"></Test>-->
+    <Test name="Pass" path="ufto-tests\APITests\FlightSoapAPI_Pass"></Test>
+    <Test name="Fail" path="ufto-tests\APITests\FlightSoapAPI_Fail"></Test>
+    <Test name="Fail" path="ufto-tests\APITests\RESTAPI_Test"></Test>
 </Mtbx>
