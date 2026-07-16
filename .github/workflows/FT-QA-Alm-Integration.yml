@@ -23,6 +23,7 @@ jobs:
         with:
           runType: alm
           almTestSets: ${{inputs.testSets}}
+          almTestSetsOrderByCriteria: "id"
           almServerUrl: http://10.168.86.75:8080/qcbin
           almUsername: sa
           almPassword:
