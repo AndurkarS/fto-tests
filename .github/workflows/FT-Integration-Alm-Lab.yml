@@ -1,4 +1,4 @@
-name: FT-integration-ALM
+name: FT-integration-ALM-Lab
 on:
   workflow_dispatch:
     inputs:
