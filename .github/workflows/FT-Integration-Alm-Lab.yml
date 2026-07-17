@@ -24,7 +24,7 @@ jobs:
           runType: alm-lab
           almBvsId: ${{inputs.testSets}}
           almTestSetsOrderByCriteria: "id"
-          almServerUrl: http://10.168.86.75:8080/qcbin
+          almServerUrl: http://almrhel705.aws.swinfra.net:8080/qcbin
           almUsername: sa
           almPassword:
           almDomain: AUTOMATION
