@@ -18,7 +18,7 @@ jobs:
     name: Integration-Job-ALM
     steps:
       - name: FT Integration ALM
-        uses: dorin7bogdan/functional-testing@main
+        uses: opentext/functional-testing@v26.3.0
         id: ft-integration-alm
         with:
           runType: alm
@@ -29,6 +29,6 @@ jobs:
           almPassword:
           almDomain: AUTOMATION
           almProject: CI_Integration
-          ftlUrl: https://raw.githubusercontent.com/dorin7bogdan/tools/main/FTToolsLauncher_26.3.exe
+          ftlUrl: https://github.com/MicroFocus/ADM-FT-ToolsLauncher/releases/download/v26.3.0/FTToolsLauncher_net48.exe
           logLevel: 2
           cleanupTestRunFiles: true
