@@ -18,7 +18,7 @@ jobs:
     name: Integration-Job-ALM
     steps:
       - name: FT Integration ALM
-        uses: opentext/functional-testing@v26.3.0
+        uses: opentext/functional-testing@main
         id: ft-integration-alm
         with:
           runType: alm
