@@ -18,7 +18,7 @@ jobs:
     name: Integration-Job-QA
     steps:
       - name: FT Integration QA
-        uses: opentext/functional-testing@v26.3.0
+        uses: opentext/functional-testing@main
         id: ft-integration-qa
         with:
           testPaths: ${{inputs.testPaths}}
